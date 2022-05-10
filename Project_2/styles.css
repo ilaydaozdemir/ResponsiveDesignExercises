@@ -55,6 +55,7 @@ h3 {
 th,
 td {
   border-bottom: 1px solid #ccc;
+  padding: 15px;
 }
 table {
   border-collapse: collapse;
@@ -62,6 +63,4 @@ table {
 }
 td {
   text-align: center;
-  height: 50px;
-  vertical-align: center;
 }
