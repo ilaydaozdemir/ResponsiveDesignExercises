@@ -75,3 +75,15 @@ td {
 .content-div-2 {
   display: none;
 }
+.position-1 {
+  border: 1px solid red;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.position-2 {
+  border: 1px solid green;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
