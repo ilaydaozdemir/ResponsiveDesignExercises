@@ -7,6 +7,13 @@
 .success {
   color: green;
 }
+.text {
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 4px;
+  word-spacing: 20px;
+  background-color: darksalmon;
+}
 #test {
   color: darkblue;
 }
