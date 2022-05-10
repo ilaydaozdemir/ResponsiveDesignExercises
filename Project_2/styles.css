@@ -64,3 +64,14 @@ table {
 td {
   text-align: center;
 }
+.content-span {
+  border: 1px solid red;
+  display: block;
+}
+.content-div {
+  border: 1px solid green;
+  display: inline;
+}
+.content-div-2 {
+  display: none;
+}
