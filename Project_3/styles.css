@@ -10,6 +10,7 @@ body {
   font-size: 1.5rem;
   padding: 1rem;
   text-align: center;
+  width: 6rem;
 }
 .item-1 {
   background-color: blueviolet;
@@ -19,17 +20,17 @@ body {
 }
 .item-3 {
   background-color: tomato;
+  /*flex-grow un tam tersi,küçültmek için kullanılır*/
+  flex-shrink: 4;
 }
 .item-4 {
   background-color: rgb(55, 7, 52);
 }
 .item-5 {
   background-color: rgb(9, 70, 11);
- 
 }
 .item-6 {
   background-color: rgb(39, 55, 43);
-  flex-grow: 1;
 }
 .item-7 {
   background-color: rgb(161, 123, 66);
