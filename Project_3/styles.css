@@ -4,9 +4,7 @@ body {
 .container {
   border: 6px solid black;
   display: flex;
-  height: 800px;
-  flex-wrap: wrap;
-  align-content: space-between;
+  
 }
 .flex-item {
   color: white;
@@ -22,6 +20,7 @@ body {
 }
 .item-3 {
   background-color: tomato;
+  order:1;
 }
 .item-4 {
   background-color: rgb(55, 7, 52);
