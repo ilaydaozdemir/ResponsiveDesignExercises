@@ -4,10 +4,9 @@ body {
 .container {
   border: 6px solid black;
   display: flex;
-  height: 400px;
-  flex-direction: column;
-  /*flex-wrap:nowrap default value,wrap:alana sığmazsa aşağı alır,wrap-reverse*/
-  flex-wrap: wrap;
+
+  /*default value (direction,wrap)*/
+  flex-flow: row nowrap;
 }
 .flex-item {
   color: white;
