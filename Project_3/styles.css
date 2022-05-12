@@ -5,8 +5,8 @@ body {
   border: 6px solid black;
   display: flex;
   height: 800px;
-  /*default value strech,flex-start,center*/
-  align-items: baseline;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 .flex-item {
   color: white;
@@ -16,7 +16,6 @@ body {
 }
 .item-1 {
   background-color: blueviolet;
-  padding-bottom: 3rem;
 }
 .item-2 {
   background-color: violet;
