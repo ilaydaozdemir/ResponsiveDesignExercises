@@ -4,9 +4,9 @@ body {
 .container {
   border: 6px solid black;
   display: flex;
-
-  /*itemlerin mesafesini alana göre eşit ayarlar*/
-  justify-content: space-between;
+  height: 800px;
+  /*default value strech,flex-start,center*/
+  align-items: baseline;
 }
 .flex-item {
   color: white;
@@ -16,6 +16,7 @@ body {
 }
 .item-1 {
   background-color: blueviolet;
+  padding-bottom: 3rem;
 }
 .item-2 {
   background-color: violet;
