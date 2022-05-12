@@ -3,9 +3,10 @@ body {
 }
 .container {
   border: 6px solid black;
-  /*içindekilerin boyutu kadar alan kaplar*/
-  display: inline-flex;
-  /*display:flex block elementi kapsar ve içindekileri boyutlarına göre sıkıştırır*/
+  display: flex;
+
+  /*flex-direction,default row gelir. -column- */
+  flex-direction: row-reverse;
 }
 .flex-item {
   color: white;
