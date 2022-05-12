@@ -4,7 +4,6 @@ body {
 .container {
   border: 6px solid black;
   display: flex;
-  
 }
 .flex-item {
   color: white;
@@ -20,16 +19,17 @@ body {
 }
 .item-3 {
   background-color: tomato;
-  order:1;
 }
 .item-4 {
   background-color: rgb(55, 7, 52);
 }
 .item-5 {
   background-color: rgb(9, 70, 11);
+ 
 }
 .item-6 {
   background-color: rgb(39, 55, 43);
+  flex-grow: 1;
 }
 .item-7 {
   background-color: rgb(161, 123, 66);
