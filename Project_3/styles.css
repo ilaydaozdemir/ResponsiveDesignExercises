@@ -4,9 +4,10 @@ body {
 .container {
   border: 6px solid black;
   display: flex;
-
-  /*default value (direction,wrap)*/
-  flex-flow: row nowrap;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 30px;
+  /*gap:(row,column) 40px,20px */
 }
 .flex-item {
   color: white;
